@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es una pagina que esta dedicada aservir como guia positiva del grupo 3, en la clase de desarrolo web de la profesora Argentina">
+    <title>Grupo 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Exposicion de desarrollo web.</h1>
+    </header>
+    <section class="home">
+        <div class="in-flex">
+            <h2>Input tipo color:</h2>
+            <p>Los elementos input del tipo «color» proporciona un elemento de interfaz de usuario que permite a los usuarios especificar un color, bien mediante una interfaz visual de selección, bien a través de un cuadro de texto donde ingresar un valor hexadecimal en el formato. Solo se permiten colores simples (sin canal alfa). Los valores son compatibles con CSS.</p><br>
+            <input type="color">
+
+            <h2>Input file</h2>
+            <p>El elemento input , teniendo el valor "file" en su atributo type , representa un control para seleccionar una lista de uno o más archivos para ser subidos al servidor. Cuando el formulario es enviado, los archivos seleccionados son subidos al servidor, junto con su nombre y tipo.</p>
+            <input type="file">
+
+            <hr>
+            <h2>Input tel</h2>
+            <p>Control para introducir un número telefónico. Los saltos de línea son eliminados automáticamente del valor introducido, pero no hay otra sintaxis forzada. Se pueden usar atributos como pattern y maxlength para restringir los valores introducidos en este control. Las pseudo-clases CSS :valid y :invalid son aplicadas segun corresponda.</p>
+               <input type="tel" id="telefono" name="number" placeholder="Ingrese el numero">
+    
+            <h2>Input URL</h2>
+            <p>Los elementos de tipo <b>URL</b>  se utilizan para permitir que el usuario ingrese y edite una URL.
+
+                El valor de entrada se valida automáticamente para garantizar que esté vacío o que sea una URL con el formato adecuado antes de que se pueda enviar el formulario. Las pseudoclases :validy :invalidCSS se aplican automáticamente según corresponda para indicar visualmente si el valor actual del campo es una URL válida o no.</p>
+                <input type="url" id="url" name="URL" placeholder="Ingrese la URL">
+               
+            <h2>Input search</h2>
+            <p>Los elementos de tipo searchson campos de texto diseñados para que el usuario ingrese consultas de búsqueda. Estos son funcionalmente idénticos a las entradas, pero el agente de usuariotext puede diseñarlos de manera diferente .</p>
+            <form>
+                <input type="search" id="gsearch" name="gsearch" name="">
+                <input type="button" value="Buscar">
+            </form>
+            <hr>
+            <h2>Etiqueta &lt;textarea&gt;</h2>
+            <p>El elemento textarea representa un campo para la entrada de texto multilínea. ... Los controles textarea son útiles para recolectar o editar líneas largas de texto como mensajes, contenido de archivos, listas, reseñas, artículos, etc. El contenido de este elemento representa el valor inicial del control</p>
+            
+            <form action="">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            
+            <h2>Etiqueta &lt;select&gt;</h2>
+            <p>El elemento select ( &lt;select&gt; ) de HTML representa un control que muestra un menú de opciones.</p>
+            <select name="animal" id="animal" pl>
+            </select>
+
+            <h2>Etiqueta &lt;option&gt;</h2>
+            <p>El elemento HTML option es usado para insertar opciones en una lista de opciones (elemento HTML select). este tipo de control puede ser usado en formularios para recolectar preferencias de los visitantes. Nota que sólo las opciones seleccionadas son enviadas con la información del formulario.</p>
+            <select name="animal" id="animal" pl>
+                <option value="dog">perro</option>
+                <option value="cat">gato</option>
+                <option value="dog">gallina</option>
+                <option value="dog">pez</option>
+            </select>
+            <hr>
+            <h2>Etiqueta &lt;label&gt;</h2>
+            <p>Etiqueta label, esta etiqueta va asociada con la etiqueta Input, puede funcionar como botón o título de un elemento input</p>
+            
+            <label for="Name">Click me</label>
+            <input type="text" id="Name" name="Name" />
+
+            <h2>Etiqueta &lt;button&gt;</h2>
+            <p>La etiqueta de HTML &lt;button&gt; representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios o en cualquier parte de la página que necesite un botón estándar y simple de aplicar. </p>
+            <button>boton</button>
+            <hr>
+            <h2>Etiqueta &lt;fieldset&gt;</h2>
+            <p>El elemento fieldset o grupo de campos, permite organizar en grupos los campos de un formulario</p>
+            <fieldset>
+                <legend>edad</legend>
+                <input type='checkbox' tabindex='20'
+                          name='edad' value='20-39' > 20-39
+                <input type='checkbox' tabindex='21'
+                          name='edad' value='40-59' > 40-59
+                <input type='checkbox' tabindex='22'
+                          name='edad' value='60-79' > 60-79
+            </fieldset>
+
+            <h2>Etiqueta &lt;legend&gt;</h2>
+            <p>La etiqueta legend sirve para colocarle un título a la etiqueta fieldset.</p>
+            <hr>
+            <h2>¿Qué es PHP y cómo funciona?</h2>
+            <img src="img/php.jpg" alt="esto es una imagen del lenguaje php">
+            <p>PHP es un lenguaje de programación destinado a desarrollar aplicaciones para la web y crear páginas web, favoreciendo la conexión entre los servidores y la interfaz de usuario. <br><br>
+
+                Entre los factores que hicieron que PHP se volviera tan popular, se destaca el hecho de que es de código abierto. <br><br>
+                
+                Esto significa que cualquiera puede hacer cambios en su estructura. En la práctica, esto representa dos cosas importantes: <br><br>
+
+                <ol>
+                    <li><b>Es de código abierto,</b> no hay restricciones de uso vinculadas a los derechos. El usuario puede usar PHP para programar en cualquier proyecto y comercializarlo sin problemas.</li><br>
+                    <li><b>Está en constante perfeccionamiento</b>, gracias a una comunidad de desarrolladores proactiva y comprometida.
+                    </li>
+                </ol>
+                
+               </p>
+
+               <h2>¿Qué es JavaScript?</h2>
+               <img src="javascript-logo-svgrepo-com.svg" alt="es una imagen del lenguaje javascrript">
+               <p>En pocas palabras, JavaScript es un popular lenguaje de programación de scripts para añadir funcionalidades interactivas y otros contenidos web dinámicos a las páginas web. Algunos ejemplos conocidos de contenido en JavaScript son los formularios rellenables, las presentaciones de galerías de fotos y los gráficos animados.</p>
+
+               <h2>¿Como recibir datos con JavaScript?</h2>
+               <form action="" id="form">
+                   <input type="text" name="name" id="name" placeholder="Nombre"><br>
+                   <input type="text" name="age" id="age" placeholder="Apellido"><br>
+                   <button type="button" onclick="getData()">Enviar</button>
+               </form>
+        </div>
+        <div class="in-flex">
+            <div>
+                <h2>Participantes:</h2>
+                <ol>
+                    <li>Marahia #30</li>
+                    <li>Elaine #9</li>
+                    <li>Yeicol #5</li>
+                    <li>Julio #7</li>
+                    <li>Leslie #27</li>
+                    <li>Manuel #24</li>
+                </ol>
+            </div>
+            <div>
+                <h2>Temas:</h2>
+                <ol>
+                    <li>Input tipo color,
+                         input file.</li>
+                    <li>Input tipo tel,
+                        Input tipo URL, 
+                        Input tipo search. </li>
+                    <li>Etiqueta textarea, select y option.</li>
+                    <li>Etiqueta label y button.</li>
+                    <li>Etiqueta fieldset y legend.</li>
+                    <li>¿Qué es PHP y cómo funciona? <br>
+                        ¿Que es JavaScript?.<br>
+                        ¿Como recibir datos con  JavaScript?.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
